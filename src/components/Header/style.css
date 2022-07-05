@@ -1,0 +1,54 @@
+.headerContainer {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerContainer svg {
+    height: 41px;
+}
+
+.search {
+    width: 700px;
+    height: 23px;
+    border: none;
+}
+
+.searchContainer {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.searchContainer svg {
+    width: 18px;
+    height: 18px;
+}
+
+.contaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contaContainer svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.contaContainer a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+.cartContainer a svg {
+    width: 18px;
+    height: 18px;
+}
