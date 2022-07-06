@@ -1,5 +1,49 @@
-.App {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    max-width: 1248px;
+    height: 407px;
+    left: 336px;
+    top: 536px;
+}
+
+.carousel .item{
+    background-color: transparent;
+    width: 216px;
+    height: 200px;
+    left: 380px;
+    top: 590px;
+}
+
+.carousel .item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel .item .info {
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel .item .info span{
+    display: block;
+    text-align: center;
+    
 }
