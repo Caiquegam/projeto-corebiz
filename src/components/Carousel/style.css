@@ -1,3 +1,6 @@
 .carouselContainer {
-    width: 100%;    
+    max-width: 100%;
+    position:absolute;
+    display: block;
+    align-items: center;
 }
